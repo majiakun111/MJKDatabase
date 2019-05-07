@@ -9,12 +9,12 @@
 #ifndef ActiveObject_h
 #define ActiveObject_h
 
-#import "Record+DDL.h"
-#import "Record+DML.h"
-#import "Record+DQL.h"
-#import "Record+Condition.h"
-#import "Record+Transaction.h"
-#import "AsyncQueue.h"
-#import "DatabaseDAO.h"
+#import "MJKRecord+DDL.h"
+#import "MJKRecord+DML.h"
+#import "MJKRecord+DQL.h"
+#import "MJKRecord+Condition.h"
+#import "MJKRecord+Transaction.h"
+#import "MJKAsyncQueue.h"
+#import "MJKDatabaseDAO.h"
 
 #endif /* ActiveObject_h */

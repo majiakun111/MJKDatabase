@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "VersionMigrateExecutor.h"
+#import "MJKVersionMigrateExecutor.h"
 
 @interface OneToTwoVersionMigrateExecutor : NSObject <VersionMigrateExecutor>
 

@@ -6,9 +6,9 @@
 //  Copyright © 2016年 MJK. All rights reserved.
 //
 
-#import "Record.h"
+#import "MJKRecord.h"
 
-@interface BankCard : Record
+@interface BankCard : MJKRecord
 
 @property (nonatomic, strong) NSString *cardId;
 @property (nonatomic, copy) NSString *money;

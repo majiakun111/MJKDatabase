@@ -7,10 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "Record.h"
+#import "MJKRecord.h"
 #import "BankCard.h"
 
-@interface Person : Record
+@interface Person : MJKRecord
 
 @property (nonatomic, assign) NSInteger age;
 @property (nonatomic, assign) CGFloat height;

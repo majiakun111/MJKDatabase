@@ -1,0 +1,15 @@
+//
+//  MJKDatabaseDAO+DQL.h
+//  ActiveObject
+//
+//  Created by Ansel on 16/3/25.
+//  Copyright © 2016年 MJK. All rights reserved.
+//
+
+#import "MJKDatabaseDAO.h"
+
+@interface MJKDatabaseDAO (DQL)
+
+- (NSArray <__kindof NSDictionary *> *)queryWithColumns:(NSString *)field where:(NSString *)where groupBy:(NSString *)groupBy having:(NSString *)having orderBy:(NSString *)orderBy limit:(NSString *)limit forTable:(NSString *)tableName;
+
+@end

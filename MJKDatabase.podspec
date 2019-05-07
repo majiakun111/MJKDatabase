@@ -19,6 +19,8 @@ Pod::Spec.new do |s|
     s.source                    = { :git => 'https://github.com/majiakun111/MJKDatabase.git', :tag => s.version.to_s }
     s.platform                  = :ios, '8.0'
     s.ios.deployment_target     = '8.0'
+    s.requires_arc              = true
     s.source_files              = 'MJKDatabase/Classes/**/*'
+
     s.dependency                'MJExtension'
 end

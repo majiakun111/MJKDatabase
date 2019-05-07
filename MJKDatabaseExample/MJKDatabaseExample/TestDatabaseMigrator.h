@@ -6,8 +6,8 @@
 //  Copyright © 2016年 MJK. All rights reserved.
 //
 
-#import "DatabaseMigrator.h"
+#import "MJKDatabaseMigrator.h"
 
-@interface TestDatabaseMigrator : DatabaseMigrator
+@interface TestDatabaseMigrator : MJKDatabaseMigrator
 
 @end

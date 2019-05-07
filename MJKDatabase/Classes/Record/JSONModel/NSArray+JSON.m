@@ -10,8 +10,7 @@
 
 @implementation NSArray (JSON)
 
-- (NSString *)JSONString
-{
+- (NSString *)JSONString {
     BOOL result = [NSJSONSerialization isValidJSONObject:self];
     if (!result) {
         return @"";

@@ -8,7 +8,7 @@
 
 #import "OneToTwoVersionMigrateExecutor.h"
 #import "Person.h"
-#import "Record+DDL.h"
+#import "MJKRecord+DDL.h"
 
 @implementation OneToTwoVersionMigrateExecutor
 

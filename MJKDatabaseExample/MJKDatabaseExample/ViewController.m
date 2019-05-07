@@ -24,10 +24,10 @@
     
     NSString *documentDirectory = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) lastObject];
     NSString *databasePath = [documentDirectory stringByAppendingPathComponent:@"Test.db"];
-    [[DatabaseDAO sharedInstance] configDatabasePath:databasePath databaseVersion:@"2.0"];
+    [[MJKDatabaseDAO sharedInstance] configDatabasePath:databasePath databaseVersion:@"2.0"];
     
     TestDatabaseMigrator *databaseMigrator = [[TestDatabaseMigrator alloc] init];
-    [[DatabaseDAO sharedInstance] setDatabaseMigrator:databaseMigrator];
+    [[MJKDatabaseDAO sharedInstance] setDatabaseMigrator:databaseMigrator];
     
     Person *person = [[Person alloc] init];
     
@@ -68,14 +68,14 @@
     
     
     //for (NSInteger index = 0; index < 6; index++) {
-    //    [[AsyncQueue sharedInstance] inDatabase:^{
+    //    [[MJKMJKAsyncQueue sharedInstance] inDatabase:^{
     //        NSLog(@"xxxxx: %@", [NSThread currentThread]);
     //        [person save];
     //    } forSqlType:SqlForDMLType];
     //}
     
     //for (NSInteger index = 0; index < 6; index++) {
-    [[AsyncQueue sharedInstance] inDatabase:^{
+    [[MJKAsyncQueue sharedInstance] inDatabase:^{
         NSArray<Person *> *persons = [person query];
         NSLog(@"xxxxx: %@,  yyyy:%@", [NSThread currentThread], persons);
     } forSqlType:SqlForDQLType];
