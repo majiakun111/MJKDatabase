@@ -85,7 +85,7 @@
 {
     BOOL result = YES;
     
-    int statusCode = sqlite3_close_v2(_db);
+    int statusCode = sqlite3_close(_db);
     if (statusCode != SQLITE_OK) {
         NSLog(@"close database failed for error: %d", statusCode);
 
