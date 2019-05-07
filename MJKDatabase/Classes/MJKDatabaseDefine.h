@@ -1,13 +1,13 @@
 //
-//  ActiveObjectDefine.h
+//  MJKDatabaseDefine.h
 //  ActiveObject
 //
 //  Created by Ansel on 16/3/25.
 //  Copyright © 2016年 MJK. All rights reserved.
 //
 
-#ifndef ActiveObjectDefine_h
-#define ActiveObjectDefine_h
+#ifndef MJKDatabaseDefine_h
+#define MJKDatabaseDefine_h
 
 //database primary key
 #define ROW_ID @"rowId"
@@ -16,4 +16,4 @@
 #define IS_UNIQUE   @"isUnique"
 
 
-#endif /* ActiveObjectDefine_h */
+#endif /* MJKDatabaseDefine_h */

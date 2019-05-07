@@ -8,7 +8,7 @@
 
 #import "Record+Additions.h"
 #import "DatabaseDAO+Additions.h"
-#import "ActiveObjectDefine.h"
+#import "MJKDatabaseDefine.h"
 
 @implementation Record (Additions)
 

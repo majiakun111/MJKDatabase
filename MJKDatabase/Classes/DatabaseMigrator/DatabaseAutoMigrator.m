@@ -7,7 +7,7 @@
 //
 
 #import "DatabaseAutoMigrator.h"
-#import "ActiveObjectDefine.h"
+#import "MJKDatabaseDefine.h"
 #import "DatabaseDAO+DDL.h"
 #import "DatabaseDAO+Additions.h"
 #import "Record+DDL.h"

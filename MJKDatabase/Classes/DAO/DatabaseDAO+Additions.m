@@ -8,7 +8,7 @@
 
 #import "DatabaseDAO+Additions.h"
 #import "Database+Additions.h"
-#import "ActiveObjectDefine.h"
+#import "MJKDatabaseDefine.h"
 
 @implementation DatabaseDAO (Additions)
 

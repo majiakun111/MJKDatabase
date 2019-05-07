@@ -7,7 +7,7 @@
 //
 
 #import "DatabaseDAO+DDL.h"
-#import "ActiveObjectDefine.h"
+#import "MJKDatabaseDefine.h"
 #import "PropertyAnalyzer.h"
 
 @interface TableBuilder : NSObject

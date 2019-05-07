@@ -11,7 +11,7 @@
 #import "DatabaseDAO+DQL.h"
 #import "Record+Additions.h"
 #import "Record+Condition.h"
-#import "ActiveObjectDefine.h"
+#import "MJKDatabaseDefine.h"
 #import "PropertyAnalyzer.h"
 #import "MJExtension.h"
 #import "ArrayConverter.h"

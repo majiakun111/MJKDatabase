@@ -1,0 +1,9 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'MJKDatabaseExample' do
+    pod 'MJExtension', '3.0.17'
+    pod 'MJKDatabase', :path => '../'
+end
+

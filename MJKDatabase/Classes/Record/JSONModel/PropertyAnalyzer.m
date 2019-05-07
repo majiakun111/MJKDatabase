@@ -7,7 +7,7 @@
 //
 
 #import "PropertyAnalyzer.h"
-#import "ActiveObjectDefine.h"
+#import "MJKDatabaseDefine.h"
 #import "MJExtension.h"
 #import "MJFoundation.h"
 #import "ArrayConverter.h"

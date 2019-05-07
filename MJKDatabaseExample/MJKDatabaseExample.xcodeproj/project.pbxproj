@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B6B334922816E4900A79B68 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B6B334822816E4900A79B68 /* AppDelegate.m */; };
+		5B6B334C22816E4900A79B68 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B6B334B22816E4900A79B68 /* ViewController.m */; };
+		5B6B334F22816E4900A79B68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B6B334D22816E4900A79B68 /* Main.storyboard */; };
+		5B6B335122816E4B00A79B68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B6B335022816E4B00A79B68 /* Assets.xcassets */; };
+		5B6B335422816E4B00A79B68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B6B335222816E4B00A79B68 /* LaunchScreen.storyboard */; };
+		5B6B335722816E4B00A79B68 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B6B335622816E4B00A79B68 /* main.m */; };
+		5B6B33652281708900A79B68 /* BankCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B6B335D2281708800A79B68 /* BankCard.m */; };
+		5B6B33662281708900A79B68 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B6B33602281708800A79B68 /* Person.m */; };
+		5B6B33672281708900A79B68 /* OneToTwoVersionMigrateExecutor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B6B33622281708800A79B68 /* OneToTwoVersionMigrateExecutor.m */; };
+		5B6B33682281708900A79B68 /* TestDatabaseMigrator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B6B33642281708800A79B68 /* TestDatabaseMigrator.m */; };
+		FF15D0FA10EB4C42B9AC29A7 /* Pods_MJKDatabaseExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F42A85886796234C900E5B4E /* Pods_MJKDatabaseExample.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		34E6E3CC80539C1F13669624 /* Pods-MJKDatabaseExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MJKDatabaseExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-MJKDatabaseExample/Pods-MJKDatabaseExample.release.xcconfig"; sourceTree = "<group>"; };
+		5B6B334422816E4900A79B68 /* MJKDatabaseExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MJKDatabaseExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B6B334722816E4900A79B68 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5B6B334822816E4900A79B68 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5B6B334A22816E4900A79B68 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5B6B334B22816E4900A79B68 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5B6B334E22816E4900A79B68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5B6B335022816E4B00A79B68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5B6B335322816E4B00A79B68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5B6B335522816E4B00A79B68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B6B335622816E4B00A79B68 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5B6B335D2281708800A79B68 /* BankCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BankCard.m; sourceTree = "<group>"; };
+		5B6B335E2281708800A79B68 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		5B6B335F2281708800A79B68 /* TestDatabaseMigrator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestDatabaseMigrator.h; sourceTree = "<group>"; };
+		5B6B33602281708800A79B68 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		5B6B33612281708800A79B68 /* OneToTwoVersionMigrateExecutor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneToTwoVersionMigrateExecutor.h; sourceTree = "<group>"; };
+		5B6B33622281708800A79B68 /* OneToTwoVersionMigrateExecutor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneToTwoVersionMigrateExecutor.m; sourceTree = "<group>"; };
+		5B6B33632281708800A79B68 /* BankCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BankCard.h; sourceTree = "<group>"; };
+		5B6B33642281708800A79B68 /* TestDatabaseMigrator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestDatabaseMigrator.m; sourceTree = "<group>"; };
+		E331F3994B34916410DB352B /* Pods-MJKDatabaseExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MJKDatabaseExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MJKDatabaseExample/Pods-MJKDatabaseExample.debug.xcconfig"; sourceTree = "<group>"; };
+		F42A85886796234C900E5B4E /* Pods_MJKDatabaseExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MJKDatabaseExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B6B334122816E4900A79B68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF15D0FA10EB4C42B9AC29A7 /* Pods_MJKDatabaseExample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B6B333B22816E4900A79B68 = {
+			isa = PBXGroup;
+			children = (
+				5B6B334622816E4900A79B68 /* MJKDatabaseExample */,
+				5B6B334522816E4900A79B68 /* Products */,
+				7B090723D1631D655DA0ADD3 /* Pods */,
+				EEE1FF867D4E398729A6944A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5B6B334522816E4900A79B68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B6B334422816E4900A79B68 /* MJKDatabaseExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B6B334622816E4900A79B68 /* MJKDatabaseExample */ = {
+			isa = PBXGroup;
+			children = (
+				5B6B334722816E4900A79B68 /* AppDelegate.h */,
+				5B6B334822816E4900A79B68 /* AppDelegate.m */,
+				5B6B334A22816E4900A79B68 /* ViewController.h */,
+				5B6B334B22816E4900A79B68 /* ViewController.m */,
+				5B6B33632281708800A79B68 /* BankCard.h */,
+				5B6B335D2281708800A79B68 /* BankCard.m */,
+				5B6B33612281708800A79B68 /* OneToTwoVersionMigrateExecutor.h */,
+				5B6B33622281708800A79B68 /* OneToTwoVersionMigrateExecutor.m */,
+				5B6B335E2281708800A79B68 /* Person.h */,
+				5B6B33602281708800A79B68 /* Person.m */,
+				5B6B335F2281708800A79B68 /* TestDatabaseMigrator.h */,
+				5B6B33642281708800A79B68 /* TestDatabaseMigrator.m */,
+				5B6B334D22816E4900A79B68 /* Main.storyboard */,
+				5B6B335022816E4B00A79B68 /* Assets.xcassets */,
+				5B6B335222816E4B00A79B68 /* LaunchScreen.storyboard */,
+				5B6B335522816E4B00A79B68 /* Info.plist */,
+				5B6B335622816E4B00A79B68 /* main.m */,
+			);
+			path = MJKDatabaseExample;
+			sourceTree = "<group>";
+		};
+		7B090723D1631D655DA0ADD3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E331F3994B34916410DB352B /* Pods-MJKDatabaseExample.debug.xcconfig */,
+				34E6E3CC80539C1F13669624 /* Pods-MJKDatabaseExample.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EEE1FF867D4E398729A6944A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F42A85886796234C900E5B4E /* Pods_MJKDatabaseExample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B6B334322816E4900A79B68 /* MJKDatabaseExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B6B335A22816E4B00A79B68 /* Build configuration list for PBXNativeTarget "MJKDatabaseExample" */;
+			buildPhases = (
+				6B1424360789961854157E9E /* [CP] Check Pods Manifest.lock */,
+				5B6B334022816E4900A79B68 /* Sources */,
+				5B6B334122816E4900A79B68 /* Frameworks */,
+				5B6B334222816E4900A79B68 /* Resources */,
+				F10AD960E339F5C0B1464FA9 /* [CP] Embed Pods Frameworks */,
+				236B0D5BAEFFFF34AC6EAF74 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MJKDatabaseExample;
+			productName = MJKDatabaseExample;
+			productReference = 5B6B334422816E4900A79B68 /* MJKDatabaseExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B6B333C22816E4900A79B68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Ansel;
+				TargetAttributes = {
+					5B6B334322816E4900A79B68 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+				};
+			};
+			buildConfigurationList = 5B6B333F22816E4900A79B68 /* Build configuration list for PBXProject "MJKDatabaseExample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5B6B333B22816E4900A79B68;
+			productRefGroup = 5B6B334522816E4900A79B68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B6B334322816E4900A79B68 /* MJKDatabaseExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B6B334222816E4900A79B68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B6B335422816E4B00A79B68 /* LaunchScreen.storyboard in Resources */,
+				5B6B335122816E4B00A79B68 /* Assets.xcassets in Resources */,
+				5B6B334F22816E4900A79B68 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		236B0D5BAEFFFF34AC6EAF74 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MJKDatabaseExample/Pods-MJKDatabaseExample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B1424360789961854157E9E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MJKDatabaseExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F10AD960E339F5C0B1464FA9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MJKDatabaseExample/Pods-MJKDatabaseExample-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework",
+				"${BUILT_PRODUCTS_DIR}/MJKDatabase/MJKDatabase.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJExtension.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJKDatabase.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MJKDatabaseExample/Pods-MJKDatabaseExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B6B334022816E4900A79B68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B6B33672281708900A79B68 /* OneToTwoVersionMigrateExecutor.m in Sources */,
+				5B6B334C22816E4900A79B68 /* ViewController.m in Sources */,
+				5B6B335722816E4B00A79B68 /* main.m in Sources */,
+				5B6B33662281708900A79B68 /* Person.m in Sources */,
+				5B6B33682281708900A79B68 /* TestDatabaseMigrator.m in Sources */,
+				5B6B334922816E4900A79B68 /* AppDelegate.m in Sources */,
+				5B6B33652281708900A79B68 /* BankCard.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5B6B334D22816E4900A79B68 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B6B334E22816E4900A79B68 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5B6B335222816E4B00A79B68 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B6B335322816E4B00A79B68 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5B6B335822816E4B00A79B68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5B6B335922816E4B00A79B68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B6B335B22816E4B00A79B68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E331F3994B34916410DB352B /* Pods-MJKDatabaseExample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MJKDatabaseExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MJK.MJKDatabaseExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5B6B335C22816E4B00A79B68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34E6E3CC80539C1F13669624 /* Pods-MJKDatabaseExample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MJKDatabaseExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MJK.MJKDatabaseExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B6B333F22816E4900A79B68 /* Build configuration list for PBXProject "MJKDatabaseExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B6B335822816E4B00A79B68 /* Debug */,
+				5B6B335922816E4B00A79B68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B6B335A22816E4B00A79B68 /* Build configuration list for PBXNativeTarget "MJKDatabaseExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B6B335B22816E4B00A79B68 /* Debug */,
+				5B6B335C22816E4B00A79B68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B6B333C22816E4900A79B68 /* Project object */;
+}

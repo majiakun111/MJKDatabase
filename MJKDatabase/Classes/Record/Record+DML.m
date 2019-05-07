@@ -7,7 +7,7 @@
 //
 
 #import "Record+DML.h"
-#import "ActiveObjectDefine.h"
+#import "MJKDatabaseDefine.h"
 #import "DatabaseDAO.h"
 #import "DatabaseDAO+DML.h"
 #import "DatabaseDAO+Additions.h"
