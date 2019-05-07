@@ -1,0 +1,14 @@
+Pods/*
+.DS_Store
+.xcodeproj/xcuserdata/*
+MJKDatabaseExample.xcworkspace/xcuserdata/*
+xcuserdata
+Pods/
+Builds/
+.idea/
+*.ipa
+*.dSYM.zip
+*.orig
+DerivedData
+Podfile.lock
+build-archive/*

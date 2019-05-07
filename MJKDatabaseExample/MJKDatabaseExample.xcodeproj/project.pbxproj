@@ -127,7 +127,6 @@
 				5B6B334122816E4900A79B68 /* Frameworks */,
 				5B6B334222816E4900A79B68 /* Resources */,
 				F10AD960E339F5C0B1464FA9 /* [CP] Embed Pods Frameworks */,
-				236B0D5BAEFFFF34AC6EAF74 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -184,25 +183,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		236B0D5BAEFFFF34AC6EAF74 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MJKDatabaseExample/Pods-MJKDatabaseExample-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		6B1424360789961854157E9E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -231,22 +211,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-MJKDatabaseExample/Pods-MJKDatabaseExample-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework",
-				"${BUILT_PRODUCTS_DIR}/MJKDatabase/MJKDatabase.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-MJKDatabaseExample/Pods-MJKDatabaseExample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJExtension.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJKDatabase.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-MJKDatabaseExample/Pods-MJKDatabaseExample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MJKDatabaseExample/Pods-MJKDatabaseExample-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MJKDatabaseExample/Pods-MJKDatabaseExample-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
