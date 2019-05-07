@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name                      = 'MJKDatabase'
-    s.version                   = '1.0.1'
+    s.version                   = '1.0.2'
     s.summary                   = 'Model direct save Database'
     s.description               = <<-DESC
                 Model direct save Database. Simple Simple!!!!
